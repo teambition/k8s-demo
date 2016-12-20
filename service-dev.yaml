@@ -1,6 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
+  namespace: helloworld
   name: k8s-demo-service
   labels:
     app: helloworld
